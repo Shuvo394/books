@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+        padding-bottom: 2vmin;
+    }
+
+    .section-1 .col-md-6 .panel h1 {
+        font-size: 5vmin;
+    }
+
+    .section-1 .col-md-6 .panel p {
+        font-size: 2.5vmin;
+        line-height: 1.5;
+    }
+
+    .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-2 .purchase h1 {
+        font-size: 6vmin;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop {
+        font-size: 8vmin;
+        margin: 2vmin 0;
+    }
+
+    .section-3 .desktop h3 {
+        padding-top: 2vmin !important;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0rem;
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4 .team .col-md-4 {}
+
+    .section-4 .carousel-inner {
+        width: 18rem;
+    }
+}
+
+@media (max-width : 450px) {
+    .section-4 .carousel-item {
+        margin-left: 0.4rem;
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+}
+
+@media (max-width : 375px) {
+    .section-4 .carousel-item {}
+
+    .section-4 .carousel-inner {
+        margin-left: -6.5vmin;
+    }
+}
+
+@media (max-width : 320px) {
+    .section-4 .carousel-item {
+
+        margin-left: 0;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -14vmin;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
